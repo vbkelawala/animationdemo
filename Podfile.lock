@@ -1,0 +1,20 @@
+PODS:
+  - anim (1.2.10)
+  - SOTabBar (1.1.3)
+
+DEPENDENCIES:
+  - anim
+  - SOTabBar
+
+SPEC REPOS:
+  trunk:
+    - anim
+    - SOTabBar
+
+SPEC CHECKSUMS:
+  anim: 8603b8aa9f20c26fb04bfc94967f0e942687938d
+  SOTabBar: 27aea95bd6b39d1be3535c867a2cd3b5adc172e6
+
+PODFILE CHECKSUM: d8d908bbdb704742f73b4312d321af1fbde9e12e
+
+COCOAPODS: 1.9.0.beta.3

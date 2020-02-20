@@ -1,0 +1,838 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1206E4ED030AF1A5EC920FD56A18436A /* anim-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 712AD5EAD8F2D0E78DE23CA6D7D431A8 /* anim-dummy.m */; };
+		2084165416245DDBF15CA6B8871D4FE0 /* SOTabBarSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8CE12F182F2A802D5E7D0C1EF976209 /* SOTabBarSetting.swift */; };
+		26B3B2F45759735434116740BA23E589 /* Pods-AnimationDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F389E33CCC3CDD24671193503F78699 /* Pods-AnimationDemo-dummy.m */; };
+		2C8F9C33A4338C35776CDEF7884FBDB3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		417DC00A2884356A4670B011A9040CD7 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DA0222517303811A0C5889210B9690 /* Settings.swift */; };
+		4294FD5EB885CD92B838E93ABF6EEC81 /* Animator-ios.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B9B0985E5D1525C41B48EB5C1B1E97 /* Animator-ios.swift */; };
+		46727E191AA355E72CCCABFD31E35612 /* Pods-AnimationDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 48E6FE0D78228DFD81EDC45882B15042 /* Pods-AnimationDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		48380B72C5CC798B24410105727D8B12 /* Ease.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0AB1A9FB1F88DE20B572303229AFB62 /* Ease.swift */; };
+		4A61BE15BD27E7644100BFE4C3CFB9BD /* SOTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64977AF226EE10FEB0B747369EF7ECA3 /* SOTabBarController.swift */; };
+		5BF04AB5D939C35F58485BA809738F02 /* SOTabBar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D03E2CF153403B76E7CB40648EA3E40 /* SOTabBar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6105E153D6B5FF0632D689B4CD397B32 /* anim-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E48D847D6E1F49918ECFB40CC846ECA0 /* anim-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7B793FA77FC7C183123AECA9C9E7D290 /* Animator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E212EF56C877F15CC7A825A4CED46DB /* Animator.swift */; };
+		89857C36B155FA71AE0FDA272AABD501 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		8CD0C396095AF25E6CEE426784A006C2 /* SOTabBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FBBBFBCC0786DA0A79582D56C3E61F7 /* SOTabBar-dummy.m */; };
+		A031452B2FB26249667B3042DA783490 /* SOTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023BDC06A7D9A1C8B6383B38F090F17B /* SOTabBar.swift */; };
+		A1641EA616F6D40BA2340259B969C0BE /* AnimatorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B877CE111DB92D762E1AB50D71F188 /* AnimatorType.swift */; };
+		A4CA98E9D057990A5A8E945C6C690C9C /* anim.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B82521CB7ADDC3FD5714D1B5D538A1A /* anim.swift */; };
+		DBDDA79E94F0FF32DD9F631B3222EFFE /* SOTabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C99326E346C88881F835EDA0CC853AF /* SOTabBarItem.swift */; };
+		EC1F556FF8640FBEA23824431B66FAB6 /* Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92CD2A72B2241D2BD7BA51A919E39FFB /* Promise.swift */; };
+		ECCECB8A6A545371E9E12B82816BDB5A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		F267B212E781833977C3AAC27A1C793E /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F37A0C32BA6A427186131E1C3A677D /* Constraint.swift */; };
+		FD0118C2F3A5B6E676DE957D1168CBA4 /* Animator-macos.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BE3C4F3F266B35CA0ABFF20A7646D5 /* Animator-macos.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		39E2EAA9EFEC7843E0A3B6308291082A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F460F5AD274507E8E883139ADBEC46D5;
+			remoteInfo = anim;
+		};
+		FB1E592B9074172C60B3A4E6E2B3F203 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6ACF3335315E86A27831CC929125D4C;
+			remoteInfo = SOTabBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		023BDC06A7D9A1C8B6383B38F090F17B /* SOTabBar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SOTabBar.swift; path = SOTabBar/Classes/SOTabBar.swift; sourceTree = "<group>"; };
+		04479023D64F05637E33047DF4AE5098 /* Pods-AnimationDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AnimationDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		06A4E7DFD87B00667C5E47CE5487F267 /* Pods_AnimationDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AnimationDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E212EF56C877F15CC7A825A4CED46DB /* Animator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Animator.swift; path = src/Animator.swift; sourceTree = "<group>"; };
+		2123E1A4BD0E609102851ABC74A5824D /* SOTabBar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SOTabBar.release.xcconfig; sourceTree = "<group>"; };
+		28B6F8BEF5314EFA77A4843828DFB053 /* anim.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = anim.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3C7F09AFFB3B8C3B3FAED79C8B74C2F3 /* SOTabBar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SOTabBar-prefix.pch"; sourceTree = "<group>"; };
+		40E0E20CC59EC68C3B7EEC3024F18830 /* anim-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "anim-Info.plist"; sourceTree = "<group>"; };
+		41DA0222517303811A0C5889210B9690 /* Settings.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Settings.swift; path = src/Settings.swift; sourceTree = "<group>"; };
+		48E6FE0D78228DFD81EDC45882B15042 /* Pods-AnimationDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AnimationDemo-umbrella.h"; sourceTree = "<group>"; };
+		4F389E33CCC3CDD24671193503F78699 /* Pods-AnimationDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AnimationDemo-dummy.m"; sourceTree = "<group>"; };
+		558254AEEE4387AFBFFBE70F94D857A7 /* Pods-AnimationDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AnimationDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		5964D1A4CA3CE501802426A4A87B52E1 /* anim.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = anim.debug.xcconfig; sourceTree = "<group>"; };
+		5AF8A551E08A03E90505821F01FCECE2 /* SOTabBar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SOTabBar.modulemap; sourceTree = "<group>"; };
+		5D03E2CF153403B76E7CB40648EA3E40 /* SOTabBar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SOTabBar-umbrella.h"; sourceTree = "<group>"; };
+		64977AF226EE10FEB0B747369EF7ECA3 /* SOTabBarController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SOTabBarController.swift; path = SOTabBar/Classes/SOTabBarController.swift; sourceTree = "<group>"; };
+		712AD5EAD8F2D0E78DE23CA6D7D431A8 /* anim-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "anim-dummy.m"; sourceTree = "<group>"; };
+		728B70EA6C77B5998996677DB1AD18B4 /* SOTabBar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SOTabBar.debug.xcconfig; sourceTree = "<group>"; };
+		73EB1E7334495BD556224657134103AA /* anim.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = anim.modulemap; sourceTree = "<group>"; };
+		7C0FDAC99D2FB81EF9DA0EC9E9FE223D /* SOTabBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SOTabBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		86B9B0985E5D1525C41B48EB5C1B1E97 /* Animator-ios.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Animator-ios.swift"; path = "src/Animator-ios.swift"; sourceTree = "<group>"; };
+		8940E2CAB4E162F4792AA4F27E04C3D7 /* Pods-AnimationDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AnimationDemo-frameworks.sh"; sourceTree = "<group>"; };
+		8B82521CB7ADDC3FD5714D1B5D538A1A /* anim.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = anim.swift; path = src/anim.swift; sourceTree = "<group>"; };
+		8C99326E346C88881F835EDA0CC853AF /* SOTabBarItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SOTabBarItem.swift; path = SOTabBar/Classes/SOTabBarItem.swift; sourceTree = "<group>"; };
+		92CD2A72B2241D2BD7BA51A919E39FFB /* Promise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Promise.swift; path = src/Promise.swift; sourceTree = "<group>"; };
+		9C756413BBB1968343928191CC86A499 /* Pods-AnimationDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AnimationDemo.release.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9FBBBFBCC0786DA0A79582D56C3E61F7 /* SOTabBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SOTabBar-dummy.m"; sourceTree = "<group>"; };
+		A0AB1A9FB1F88DE20B572303229AFB62 /* Ease.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Ease.swift; path = src/Ease.swift; sourceTree = "<group>"; };
+		A3B877CE111DB92D762E1AB50D71F188 /* AnimatorType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatorType.swift; path = src/AnimatorType.swift; sourceTree = "<group>"; };
+		A51BFFF9E375AA9443740D4711C83143 /* SOTabBar-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SOTabBar-Info.plist"; sourceTree = "<group>"; };
+		B7BE3C4F3F266B35CA0ABFF20A7646D5 /* Animator-macos.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Animator-macos.swift"; path = "src/Animator-macos.swift"; sourceTree = "<group>"; };
+		C27B6188436103670AF17FBB67346E7C /* Pods-AnimationDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AnimationDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C2F37A0C32BA6A427186131E1C3A677D /* Constraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constraint.swift; path = src/Constraint.swift; sourceTree = "<group>"; };
+		C8CE12F182F2A802D5E7D0C1EF976209 /* SOTabBarSetting.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SOTabBarSetting.swift; path = SOTabBar/Classes/SOTabBarSetting.swift; sourceTree = "<group>"; };
+		CB6056C30F93BF8918058EC569F905AC /* anim-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "anim-prefix.pch"; sourceTree = "<group>"; };
+		E48D847D6E1F49918ECFB40CC846ECA0 /* anim-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "anim-umbrella.h"; sourceTree = "<group>"; };
+		E4BF8E396625D250137587B4F804B2EE /* Pods-AnimationDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AnimationDemo-Info.plist"; sourceTree = "<group>"; };
+		EAA7C3FAE051F94EB38A030B736C0C8D /* Pods-AnimationDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AnimationDemo.modulemap"; sourceTree = "<group>"; };
+		F1E7AA2DFC4C8963757AB1E88D999CD1 /* anim.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = anim.release.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6A552AC028F2B72BE7E1C746800042EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECCECB8A6A545371E9E12B82816BDB5A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76C3B22482F976FCCF7E8BC6E91C5F67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89857C36B155FA71AE0FDA272AABD501 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E064F8E255BC47E9A32FE0B9D7ECF328 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C8F9C33A4338C35776CDEF7884FBDB3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3AC61FFE80813B3C4897D97807073EE5 /* Pods-AnimationDemo */ = {
+			isa = PBXGroup;
+			children = (
+				EAA7C3FAE051F94EB38A030B736C0C8D /* Pods-AnimationDemo.modulemap */,
+				C27B6188436103670AF17FBB67346E7C /* Pods-AnimationDemo-acknowledgements.markdown */,
+				558254AEEE4387AFBFFBE70F94D857A7 /* Pods-AnimationDemo-acknowledgements.plist */,
+				4F389E33CCC3CDD24671193503F78699 /* Pods-AnimationDemo-dummy.m */,
+				8940E2CAB4E162F4792AA4F27E04C3D7 /* Pods-AnimationDemo-frameworks.sh */,
+				E4BF8E396625D250137587B4F804B2EE /* Pods-AnimationDemo-Info.plist */,
+				48E6FE0D78228DFD81EDC45882B15042 /* Pods-AnimationDemo-umbrella.h */,
+				04479023D64F05637E33047DF4AE5098 /* Pods-AnimationDemo.debug.xcconfig */,
+				9C756413BBB1968343928191CC86A499 /* Pods-AnimationDemo.release.xcconfig */,
+			);
+			name = "Pods-AnimationDemo";
+			path = "Target Support Files/Pods-AnimationDemo";
+			sourceTree = "<group>";
+		};
+		50695F01F27D1AB237261BED42AC7BB5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				28B6F8BEF5314EFA77A4843828DFB053 /* anim.framework */,
+				06A4E7DFD87B00667C5E47CE5487F267 /* Pods_AnimationDemo.framework */,
+				7C0FDAC99D2FB81EF9DA0EC9E9FE223D /* SOTabBar.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7C49A0FF1B759223989AFFE6A971D4A2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B1EB76D1C2A2EEBAE4F24DF0B7CDF6F9 /* anim */,
+				FEAA07ED733714BD8BEFA852D08FF667 /* SOTabBar */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8D173594C71C309632CA0D4F7ECD7A62 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3AC61FFE80813B3C4897D97807073EE5 /* Pods-AnimationDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		93507A105ADC57F46F4BB33013460793 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5AF8A551E08A03E90505821F01FCECE2 /* SOTabBar.modulemap */,
+				9FBBBFBCC0786DA0A79582D56C3E61F7 /* SOTabBar-dummy.m */,
+				A51BFFF9E375AA9443740D4711C83143 /* SOTabBar-Info.plist */,
+				3C7F09AFFB3B8C3B3FAED79C8B74C2F3 /* SOTabBar-prefix.pch */,
+				5D03E2CF153403B76E7CB40648EA3E40 /* SOTabBar-umbrella.h */,
+				728B70EA6C77B5998996677DB1AD18B4 /* SOTabBar.debug.xcconfig */,
+				2123E1A4BD0E609102851ABC74A5824D /* SOTabBar.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SOTabBar";
+			sourceTree = "<group>";
+		};
+		B1EB76D1C2A2EEBAE4F24DF0B7CDF6F9 /* anim */ = {
+			isa = PBXGroup;
+			children = (
+				8B82521CB7ADDC3FD5714D1B5D538A1A /* anim.swift */,
+				1E212EF56C877F15CC7A825A4CED46DB /* Animator.swift */,
+				86B9B0985E5D1525C41B48EB5C1B1E97 /* Animator-ios.swift */,
+				B7BE3C4F3F266B35CA0ABFF20A7646D5 /* Animator-macos.swift */,
+				A3B877CE111DB92D762E1AB50D71F188 /* AnimatorType.swift */,
+				C2F37A0C32BA6A427186131E1C3A677D /* Constraint.swift */,
+				A0AB1A9FB1F88DE20B572303229AFB62 /* Ease.swift */,
+				92CD2A72B2241D2BD7BA51A919E39FFB /* Promise.swift */,
+				41DA0222517303811A0C5889210B9690 /* Settings.swift */,
+				CA42FD70EA3CA83F835B7EA538507741 /* Support Files */,
+			);
+			path = anim;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CA42FD70EA3CA83F835B7EA538507741 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				73EB1E7334495BD556224657134103AA /* anim.modulemap */,
+				712AD5EAD8F2D0E78DE23CA6D7D431A8 /* anim-dummy.m */,
+				40E0E20CC59EC68C3B7EEC3024F18830 /* anim-Info.plist */,
+				CB6056C30F93BF8918058EC569F905AC /* anim-prefix.pch */,
+				E48D847D6E1F49918ECFB40CC846ECA0 /* anim-umbrella.h */,
+				5964D1A4CA3CE501802426A4A87B52E1 /* anim.debug.xcconfig */,
+				F1E7AA2DFC4C8963757AB1E88D999CD1 /* anim.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/anim";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				7C49A0FF1B759223989AFFE6A971D4A2 /* Pods */,
+				50695F01F27D1AB237261BED42AC7BB5 /* Products */,
+				8D173594C71C309632CA0D4F7ECD7A62 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FEAA07ED733714BD8BEFA852D08FF667 /* SOTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				023BDC06A7D9A1C8B6383B38F090F17B /* SOTabBar.swift */,
+				64977AF226EE10FEB0B747369EF7ECA3 /* SOTabBarController.swift */,
+				8C99326E346C88881F835EDA0CC853AF /* SOTabBarItem.swift */,
+				C8CE12F182F2A802D5E7D0C1EF976209 /* SOTabBarSetting.swift */,
+				93507A105ADC57F46F4BB33013460793 /* Support Files */,
+			);
+			path = SOTabBar;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1CCA915CAC6CB344F3F36BFE6DDB5B52 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BF04AB5D939C35F58485BA809738F02 /* SOTabBar-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C42AB6D694F21B45336BD0DD1EAF87FE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6105E153D6B5FF0632D689B4CD397B32 /* anim-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D92ACAC570E94BA752C614188FC76718 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46727E191AA355E72CCCABFD31E35612 /* Pods-AnimationDemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		06D152887F3A27D70080E6E617342EF7 /* Pods-AnimationDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D631BF95AF7C3AF9E81A590512D0A08A /* Build configuration list for PBXNativeTarget "Pods-AnimationDemo" */;
+			buildPhases = (
+				D92ACAC570E94BA752C614188FC76718 /* Headers */,
+				1BCAA231669FD81C3D003FE13E7CD06D /* Sources */,
+				76C3B22482F976FCCF7E8BC6E91C5F67 /* Frameworks */,
+				8F6F60165BBF6DB825A4CE6FC00F4259 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83CD634731DF54FAEFCF050D076A233C /* PBXTargetDependency */,
+				0BCC9B795324F5E24F9F3DB50B4946FC /* PBXTargetDependency */,
+			);
+			name = "Pods-AnimationDemo";
+			productName = "Pods-AnimationDemo";
+			productReference = 06A4E7DFD87B00667C5E47CE5487F267 /* Pods_AnimationDemo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C6ACF3335315E86A27831CC929125D4C /* SOTabBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B4B5FF9D633641AE57ADEA14293D33D /* Build configuration list for PBXNativeTarget "SOTabBar" */;
+			buildPhases = (
+				1CCA915CAC6CB344F3F36BFE6DDB5B52 /* Headers */,
+				511C170196C57390D4C4B19883A795C1 /* Sources */,
+				6A552AC028F2B72BE7E1C746800042EE /* Frameworks */,
+				6678EDA1161C5D20EE9EAB6CC76A86B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SOTabBar;
+			productName = SOTabBar;
+			productReference = 7C0FDAC99D2FB81EF9DA0EC9E9FE223D /* SOTabBar.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F460F5AD274507E8E883139ADBEC46D5 /* anim */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC11C0A4D73E826360F592C2B74A0058 /* Build configuration list for PBXNativeTarget "anim" */;
+			buildPhases = (
+				C42AB6D694F21B45336BD0DD1EAF87FE /* Headers */,
+				4E86D8A800F1F8ED6D96EE184C5FEBB9 /* Sources */,
+				E064F8E255BC47E9A32FE0B9D7ECF328 /* Frameworks */,
+				FA39C2E115EF8790F82E14EAA2689A32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = anim;
+			productName = anim;
+			productReference = 28B6F8BEF5314EFA77A4843828DFB053 /* anim.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					C6ACF3335315E86A27831CC929125D4C = {
+						LastSwiftMigration = 1130;
+					};
+				};
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 50695F01F27D1AB237261BED42AC7BB5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F460F5AD274507E8E883139ADBEC46D5 /* anim */,
+				06D152887F3A27D70080E6E617342EF7 /* Pods-AnimationDemo */,
+				C6ACF3335315E86A27831CC929125D4C /* SOTabBar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6678EDA1161C5D20EE9EAB6CC76A86B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F6F60165BBF6DB825A4CE6FC00F4259 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA39C2E115EF8790F82E14EAA2689A32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1BCAA231669FD81C3D003FE13E7CD06D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26B3B2F45759735434116740BA23E589 /* Pods-AnimationDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E86D8A800F1F8ED6D96EE184C5FEBB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1206E4ED030AF1A5EC920FD56A18436A /* anim-dummy.m in Sources */,
+				A4CA98E9D057990A5A8E945C6C690C9C /* anim.swift in Sources */,
+				4294FD5EB885CD92B838E93ABF6EEC81 /* Animator-ios.swift in Sources */,
+				FD0118C2F3A5B6E676DE957D1168CBA4 /* Animator-macos.swift in Sources */,
+				7B793FA77FC7C183123AECA9C9E7D290 /* Animator.swift in Sources */,
+				A1641EA616F6D40BA2340259B969C0BE /* AnimatorType.swift in Sources */,
+				F267B212E781833977C3AAC27A1C793E /* Constraint.swift in Sources */,
+				48380B72C5CC798B24410105727D8B12 /* Ease.swift in Sources */,
+				EC1F556FF8640FBEA23824431B66FAB6 /* Promise.swift in Sources */,
+				417DC00A2884356A4670B011A9040CD7 /* Settings.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		511C170196C57390D4C4B19883A795C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CD0C396095AF25E6CEE426784A006C2 /* SOTabBar-dummy.m in Sources */,
+				A031452B2FB26249667B3042DA783490 /* SOTabBar.swift in Sources */,
+				4A61BE15BD27E7644100BFE4C3CFB9BD /* SOTabBarController.swift in Sources */,
+				DBDDA79E94F0FF32DD9F631B3222EFFE /* SOTabBarItem.swift in Sources */,
+				2084165416245DDBF15CA6B8871D4FE0 /* SOTabBarSetting.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0BCC9B795324F5E24F9F3DB50B4946FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = anim;
+			target = F460F5AD274507E8E883139ADBEC46D5 /* anim */;
+			targetProxy = 39E2EAA9EFEC7843E0A3B6308291082A /* PBXContainerItemProxy */;
+		};
+		83CD634731DF54FAEFCF050D076A233C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SOTabBar;
+			target = C6ACF3335315E86A27831CC929125D4C /* SOTabBar */;
+			targetProxy = FB1E592B9074172C60B3A4E6E2B3F203 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1138059110D40BA34421752AD45906DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5964D1A4CA3CE501802426A4A87B52E1 /* anim.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/anim/anim-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/anim/anim-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/anim/anim.modulemap";
+				PRODUCT_MODULE_NAME = anim;
+				PRODUCT_NAME = anim;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		204B40A44B2F0FFA6DD257A547CED941 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 728B70EA6C77B5998996677DB1AD18B4 /* SOTabBar.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SOTabBar/SOTabBar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SOTabBar/SOTabBar-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SOTabBar/SOTabBar.modulemap";
+				PRODUCT_MODULE_NAME = SOTabBar;
+				PRODUCT_NAME = SOTabBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		41C2CE6BC4700F84AFB189744AD8CEDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2123E1A4BD0E609102851ABC74A5824D /* SOTabBar.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SOTabBar/SOTabBar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SOTabBar/SOTabBar-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SOTabBar/SOTabBar.modulemap";
+				PRODUCT_MODULE_NAME = SOTabBar;
+				PRODUCT_NAME = SOTabBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		57146E173780CCEE19E071CD8DCF1246 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1E7AA2DFC4C8963757AB1E88D999CD1 /* anim.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/anim/anim-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/anim/anim-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/anim/anim.modulemap";
+				PRODUCT_MODULE_NAME = anim;
+				PRODUCT_NAME = anim;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		939F1A8F6BCEB7F9F64D9EEE50CAE014 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B6AE5F68D374F0A905121777DBAF8808 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C756413BBB1968343928191CC86A499 /* Pods-AnimationDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AnimationDemo/Pods-AnimationDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AnimationDemo/Pods-AnimationDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DF313F998C9455004ED4F6DBD9049C1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04479023D64F05637E33047DF4AE5098 /* Pods-AnimationDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AnimationDemo/Pods-AnimationDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AnimationDemo/Pods-AnimationDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ECB437504DF805BD96CAABF97400B526 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				939F1A8F6BCEB7F9F64D9EEE50CAE014 /* Debug */,
+				ECB437504DF805BD96CAABF97400B526 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B4B5FF9D633641AE57ADEA14293D33D /* Build configuration list for PBXNativeTarget "SOTabBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				204B40A44B2F0FFA6DD257A547CED941 /* Debug */,
+				41C2CE6BC4700F84AFB189744AD8CEDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D631BF95AF7C3AF9E81A590512D0A08A /* Build configuration list for PBXNativeTarget "Pods-AnimationDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF313F998C9455004ED4F6DBD9049C1F /* Debug */,
+				B6AE5F68D374F0A905121777DBAF8808 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC11C0A4D73E826360F592C2B74A0058 /* Build configuration list for PBXNativeTarget "anim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1138059110D40BA34421752AD45906DF /* Debug */,
+				57146E173780CCEE19E071CD8DCF1246 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
